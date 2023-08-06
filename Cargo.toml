@@ -1,0 +1,11 @@
+[package]
+name = "ixsi"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dimitri Timoz <dimitri.timoz@protonmail.com"]
+description = "IXSI is a p2p protocol for recommendation systems."
+license = "MIT"
+repository = ""
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
