@@ -12,6 +12,8 @@ repository = "https://github.com/DimitriTimoz/ixsi"
 wasm-bindgen = "0.2.87"
 libp2p = { version = "0.52" }
 libp2p-webtransport-websys = { version = "0.1" }
+tokio = { version = "1.29", features = ["sync"]}
+async-trait = "0.1.72"
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3"

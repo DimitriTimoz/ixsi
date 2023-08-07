@@ -58,3 +58,12 @@ impl ConnectionHandler for IxsiHandler {
         todo!()
     }
 }
+
+impl IxsiHandler {
+    pub fn new(my_peer_id: PeerId, remote_peer_id: PeerId) -> Self {
+        Self {
+            my_peer_id,
+            remote_peer_id,
+        }
+    }
+}
